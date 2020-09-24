@@ -220,3 +220,9 @@ func (req *HttpRequest) SetRetry(retry *Retry) *HttpRequest {
 
 	return req
 }
+
+func (req *HttpRequest) SetConfig(config *Config) *HttpRequest {
+	req.Config = config
+
+	return req
+}
