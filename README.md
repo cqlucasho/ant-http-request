@@ -36,4 +36,9 @@ if err != nil {
 ```
 testReq := NewHttpRequest("http://127.0.0.1:8000/hello", nil)
 testReq.SetConfig(&Config{MaxRetryNum: 3})
+testReq.SetTransport(...)
+testReq.SetCookieJar(...)
+testReq.SetRetry(...)
+testReq.SetTLSClientConfig(...)
+...
 ```
