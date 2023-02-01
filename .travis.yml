@@ -4,5 +4,8 @@ go:
 - 1.x
 - master
 
+env:
+- HEE:test
+
 before_install:
 - cp config.go ~/config.go.back
