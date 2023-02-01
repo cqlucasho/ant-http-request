@@ -1,2 +1,4 @@
-language: golang
-script: true
+language: go
+go:
+- 1.x
+- master
